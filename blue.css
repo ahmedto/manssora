@@ -1,0 +1,716 @@
+﻿body
+{
+	color: #000000;
+	font: bold 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	min-width:900px;
+}
+a:link, body_alink
+{
+	color: #00378f;
+}
+a:visited, body_avisited
+{
+	color: #00378f;
+}
+a:hover, a:active, body_ahover
+{
+	color: #1E1E1E;
+}
+.page
+{
+	background: #FFFFFF;
+	color: #000000;
+	font: bold 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+td, th, p, li
+{
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	color: #000000;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	border-right:1px solid #c6c6c6;
+	border-left:1px solid #c6c6c6;
+}
+.tcat
+{
+	background: #9c9c9c url(https://i21.servimg.com/u/f21/17/65/52/08/frname10.gif) repeat-x top left;
+	color: #202020;
+	font: bold 12pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	height:39px;
+	text-shadow:1px 1px 0px #ededed;
+	border:1px solid #656565;
+	padding:0 15px;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #202020;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #202020;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #202020;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #5b5a5b;
+	color: #FFFFFF;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	text-shadow:1px 1px 0px #202020;
+}
+.thead a:link, .thead_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #ffffff;
+	text-decoration: underline;
+}
+.tfoot
+{
+	color: #00378f;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #00378f;
+	text-decoration: none;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #00378f;
+	text-decoration: none;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #1e1e1e;
+	text-decoration: underline;
+}
+.alt1, .alt1Active
+{
+	background: #f7f7f7;
+	color: #000000;
+	font: bold 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #c6c6c6;
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink
+{
+	color: #00378f;
+	text-decoration: none;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited
+{
+	color: #00378f;
+}
+.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover
+{
+	color: #1e1e1e;
+	text-decoration: underline;
+}
+.alt2, .alt2Active
+{
+	background: #f7f7f7;
+	color: #000000;
+	font: bold 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #c6c6c6;
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink
+{
+	color: #00378f;
+	text-decoration: none;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited
+{
+	color: #00378f;
+	text-decoration: none;
+}
+.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover
+{
+	color: #1e1e1e;
+	text-decoration: underline;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.wysiwyg
+{
+	background: #F5F5FF;
+	color: #000000;
+	font: bold 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #00378f;
+	text-decoration: none;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #00378f;
+	text-decoration: none;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #1e1e1e;
+	text-decoration: underline;
+}
+textarea, .bginput
+{
+	font: bold 10pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 9pt;
+	font-family: tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #CC0000;
+	font: bold 8pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.navbar
+{
+	color: #00378f;
+	font: bold 8pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #00378f;
+	color: #eeeeee;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #F5F5FF;
+	color: #000000;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding: 10px;
+	border: 2px outset;
+}
+.panelsurround
+{
+	background: #f5f5f5;
+	color: #000000;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+legend
+{
+	color: #00378f;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #5b5a5b;
+	color: #FFFFFF;
+	font: bold 8pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding: 3px 6px 3px 6px;
+	white-space: nowrap;
+	text-shadow:1px 1px 0px #202020;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.vbmenu_popup
+{
+	background: #FFFFFF;
+	color: #1e1e1e;
+	font: bold 8pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	border: 1px solid #c6c6c6;
+}
+.vbmenu_option
+{
+	background: #f7f7f7;
+	color: #1e1e1e;
+	font: bold 8pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+	border-bottom:1px solid #c6c6c6;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #00378f;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #00378f;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #1e1e1e;
+	text-decoration: underline;
+}
+.vbmenu_hilite
+{
+	background: #eeeeee;
+	color: #333333;
+	font: bold 8pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+	border-bottom:1px solid #c6c6c6;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #333333;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #333333;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #333333;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+body {
+	margin:0;
+	padding:0;
+	background:#dcdcdc url(https://i21.servimg.com/u/f21/17/65/52/08/bg10.gif) repeat;
+}
+#HeaderT {
+	padding-top:10px;
+	overflow:hidden;
+	clear:both;
+	margin-bottom:10px;
+}
+#HeaderT #HMenuSearch {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/hmenub10.gif) repeat-x;
+	height:57px;
+}
+#HeaderT #HMenuSearch #HMenu {
+	height:57px;
+	float:right;
+	direction:rtl;
+}
+#HeaderT #HMenuSearch #HMenu ul {
+	margin:0;
+	padding:0;
+	margin-right:3px;
+}
+#HeaderT #HMenuSearch #HMenu li {
+	list-style:none;
+	float:right;
+	height:57px;
+	line-height:57px;
+	margin-left:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+#HeaderT #HMenuSearch #HMenu li a {
+	color:#fff;
+	display:block;
+	height:57px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #031573;
+}
+#HeaderT #HMenuSearch #HMenu li a:hover {
+	color:#81ccf8;
+}
+#HeaderT #HMenuSearch #HMenu li.HomeB {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/homeb10.gif) no-repeat;
+	width:75px;
+	margin-left:10px;
+	margin-top:8px;
+	height:39px;
+}
+#HeaderT #HMenuSearch #HSearch {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/search10.gif) no-repeat;
+	width:312px;
+	height:57px;
+	float:left;
+	margin-left:35px;
+	position:relative;
+}
+#HeaderT #HMenuSearch #HSearch .SearchT {
+	position:absolute;
+	left: 68px;
+	top: 12px;
+	height: 31px;
+	width: 208px;
+}
+.Rinput {
+	font-family:Tahoma, Geneva, sans-serif;
+	border:0;
+	background-color:transparent;
+	direction:rtl;
+	color:#555555;
+	font-weight:normal;
+	font-size:14px;
+	text-shadow:1px 1px 0px #ededed;
+}
+#HeaderT #HMenuSearch #HSearch .buttonT {
+	position:absolute;
+	left: 5px;
+	top: 10px;
+	height: 37px;
+	width: 48px;
+}
+#HeaderT #HMenuSearchB {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/menub10.gif) repeat-x;
+	height:11px;
+	overflow:hidden;
+	clear:both;
+}
+#HeaderT #Header {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/hbg10.jpg) repeat-x;
+	height:220px;
+	overflow:hidden;
+	clear:both;
+	position:relative;
+}
+#HeaderT #Header #HLogo {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/hlogo10.png) no-repeat;
+	width:440px;
+	height:220px;
+	float:right;
+}
+#HeaderT #Header #HLogin {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/huserl10.jpg) no-repeat;
+	width:361px;
+	height:220px;
+	float:left;
+	position:relative;
+}
+#HeaderT #Header #HLogin .loginput {
+	background-color:transparent;
+	border:0;
+	text-align:right;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#555555;
+	text-shadow:1px 1px 0px #fff;
+	}
+#HeaderT #Header #HLogin .userl {
+	position:absolute;
+	left: 102px;
+	top: 72px;
+	width: 142px;
+	height: 23px;
+}
+#HeaderT #Header #HLogin .passl {
+	position:absolute;
+	left: 103px;
+	top: 109px;
+	width: 142px;
+	height: 23px;
+}
+#HeaderT #Header #HLogin .chekl {
+	position:absolute;
+	left: 256px;
+	top: 153px;
+}
+#HeaderT #Header #HLogin .subml {
+	position:absolute;
+	left: 99px;
+	top: 146px;
+	width:70px;
+	height:34px;
+}
+#HeaderColor {
+	position:absolute;
+	width:20px;
+	height:85px;
+	left: 39px;
+	top: 60px;
+}
+#contentt {
+	margin-top:20px;
+}
+#contentTop {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/navtbg10.gif) repeat-x;
+	height:64px;
+	clear:both;
+}
+#contentTop #ContentTopR {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/gropui10.gif) no-repeat;
+	width:291px;
+	height:64px;
+	float:right;
+	position:relative;
+}
+#contentTop #ContentTopR .groupinput {
+	position:absolute;
+	left: 76px;
+	top: 11px;
+	width: 144px;
+	height: 25px;
+	padding-right:5px;
+	padding-bottom:5px;
+}
+#contentTop #ContentTopR .groupbu {
+	position:absolute;
+	left: 6px;
+	top: 11px;
+	height: 30px;
+	width: 57px;
+}
+#contentTop #ContentTopR #groupimg {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/groupr10.gif) no-repeat;
+	width:94px;
+	height:46px;
+	position:absolute;
+	left: 176px;
+	top: -51px;
+}
+#contentTop #ContentTopL {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/follow10.gif) no-repeat;
+	width:223px;
+	height:64px;
+	float:left;
+}
+#contentt #contentRbg {
+	background:#fff url(https://i21.servimg.com/u/f21/17/65/52/08/bodyrb10.gif) repeat-y right;
+	padding-right:26px;
+	overflow:hidden;
+}
+#contentt #contentLbg {
+	background:#fff url(https://i21.servimg.com/u/f21/17/65/52/08/bodylb10.gif) repeat-y left;
+	padding-left:26px;
+	overflow:hidden;
+}
+#contentt #contentBottom {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/bodybb10.gif) repeat-x;
+	height:23px;
+}
+#contentt #contentBottomR {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/bodybr10.gif) no-repeat;
+	width:33px;
+	height:23px;
+	float:right;
+}
+#contentt #contentBottomL {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/bodybl10.gif) no-repeat;
+	width:33px;
+	height:23px;
+	float:left;
+}
+#Footer {
+	overflow:hidden;
+	clear:both;
+}
+#Footer #FooterT {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/footer10.gif) repeat-x;
+	height:155px;
+	overflow:hidden;
+}
+#Footer #FooterB {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/footer11.gif) repeat-x;
+	height:37px;
+	position:relative;
+	clear:both;
+}
+#Footer #footerlogo {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/footer10.png) no-repeat;
+	width:298px;
+	height:155px;
+	float:right;
+	margin-right:25px;
+}
+#Footer #FooterT ul {
+	float:left;
+	list-style:none;
+	direction:rtl;
+}
+#Footer #FooterT ul li {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/footer12.gif) no-repeat right bottom;
+	width:182px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	height:20px;
+	margin-bottom:5px;
+}
+#Footer #FooterT ul li a {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/footer13.gif) no-repeat right center;
+	padding-right:13px;
+	color:#fff;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #545454;
+}
+#Footer #FooterT ul li a:hover {
+	color:#141414;
+	text-shadow:1px 1px 0px #eeeeee;
+}
+#Footer .ulmargin {
+	margin-left:85px;
+}
+#Footer #Footercopyright {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/footer11.png) no-repeat;
+	width:218px;
+	height:37px;
+	float:right;
+	margin-right:50px;
+}
+#Footer #a7la7ekaya-Footer {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/a7la7e10.png) no-repeat;
+	width:87px;
+	height:51px;
+	position:absolute;
+	left: 33px;
+	bottom: 0px;
+}
+.frT {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/frtbg10.gif) repeat-x;
+	height:65px;
+	overflow:hidden;
+}
+.frT .frTR {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/frtr10.png) no-repeat;
+	width:235px;
+	height:65px;
+	float:right;
+}
+.frT .frTL {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/frtl10.png) no-repeat;
+	width:182px;
+	height:65px;
+	float:left;
+}
+.frRBG {
+	background:#e5e5e5 url(https://i21.servimg.com/u/f21/17/65/52/08/frrbg10.gif) repeat-y right;
+	padding-right:23px;
+}
+.frLBG {
+	background:#e5e5e5 url(https://i21.servimg.com/u/f21/17/65/52/08/frlbg10.gif) repeat-y left;
+	padding-left:23px;
+}
+.frB {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/frbbg10.gif) repeat-x;
+	height:42px;
+}
+.frBR {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/frbr10.gif) no-repeat;
+	width:24px;
+	height:42px;
+	float:right;
+}
+.frBL {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/frbl10.gif) no-repeat;
+	width:265px;
+	height:42px;
+	float:left;
+}
+#HeaderT #Header #Huseron {
+	background:url(https://i21.servimg.com/u/f21/17/65/52/08/huseri10.jpg) no-repeat;
+	width:361px;
+	height:220px;
+	float:left;
+	position:relative;
+}
+#HeaderT #Header #Huseron .Husername {
+	font-weight:bold;
+	position:absolute;
+	right:146px;
+	top:72px;
+	text-align:right;
+}
+#HeaderT #Header #Huseron #Huserde {
+line-height:1.5;
+font-size:11px;
+  font-weight:bold;
+	position:absolute;
+	width:233px;
+	height:52px;
+	left: 70px;
+	top: 91px;
+	z-index:1;
+}
+#Huserlogout {
+	position:absolute;
+	width:71px;
+	height:38px;
+	top:144px;
+	left: 100px;
+}
+#Huserlogout a {
+	width:71px;
+	height:38px;
+	display:block;
+}
+
+.alt2back {
+	background:#F7F7F7 url(https://i21.servimg.com/u/f21/17/65/52/08/frrowb10.gif) no-repeat left center;
+height:81px;
+  padding:0 5px;
+}

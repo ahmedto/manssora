@@ -1,0 +1,124 @@
+﻿a:link, body_alink
+{
+	color: #6c9a1d;
+}
+a:visited, body_avisited
+{
+	color: #6c9a1d;
+}
+.tfoot
+{
+	color: #6c9a1d;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #6c9a1d;
+	text-decoration: none;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #6c9a1d;
+	text-decoration: none;
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink
+{
+	color: #6c9a1d;
+	text-decoration: none;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited
+{
+	color: #6c9a1d;
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink
+{
+	color: #6c9a1d;
+	text-decoration: none;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited
+{
+	color: #6c9a1d;
+	text-decoration: none;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #6c9a1d;
+	text-decoration: none;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #6c9a1d;
+	text-decoration: none;
+}
+.navbar
+{
+	color: #6c9a1d;
+	font: bold 8pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.fjsel
+{
+	background: #6c9a1d;
+	color: #eeeeee;
+}
+legend
+{
+	color: #6c9a1d;
+	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #6c9a1d;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #6c9a1d;
+	text-decoration: none;
+}
+#HeaderT #HMenuSearch {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/hmenub10.gif) repeat-x;
+}
+#HeaderT #HMenuSearch #HMenu li a {
+	text-shadow:1px 1px 0px #3d9b0a;
+}
+#HeaderT #HMenuSearch #HMenu li a:hover {
+	color:#cef64f;
+}
+#HeaderT #HMenuSearch #HMenu li.HomeB {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/homeb10.gif) no-repeat;
+}
+#HeaderT #HMenuSearch #HSearch {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/search10.gif) no-repeat;
+}
+#HeaderT #Header #HLogo {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/blue-h11.png) no-repeat;
+}
+#contentTop {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/navtbg10.gif) repeat-x;
+}
+#contentTop #ContentTopR {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/gropui10.gif) no-repeat;
+}
+#contentTop #ContentTopL {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/follow10.gif) no-repeat;
+}
+#Footer #footerlogo {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/footer11.png) no-repeat;
+}
+.frT {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/frtbg11.gif) repeat-x;
+}
+.frT .frTR {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/frtr11.png) no-repeat;
+}
+.frT .frTL {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/frtl11.png) no-repeat;
+}
+#Footer #a7la7ekaya-Footer {
+	background:url(https://i25.servimg.com/u/f25/20/21/38/73/a7la7e12.png) no-repeat;
+	width:87px;
+	height:51px;
+	position:absolute;
+	left: 33px;
+	bottom: 0px;
+}
