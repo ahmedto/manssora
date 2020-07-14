@@ -172,7 +172,7 @@ td, th, p, li
 .wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
 {
 	color: #1e1e1e;
-	text-decoration: underline;
+	text-decoration: none;
 }
 textarea, .bginput
 {
@@ -266,7 +266,7 @@ legend
 .vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
 {
 	color: #FFFFFF;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .vbmenu_popup
 {
@@ -297,7 +297,7 @@ legend
 .vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
 {
 	color: #1e1e1e;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .vbmenu_hilite
 {
@@ -335,7 +335,7 @@ td.thead, th.thead, div.thead { padding: 4px; }
 
 /* ***** de-emphasized text */
 .shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
-a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: none; }
 .tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
 
 /* ***** define margin and font-size for elements inside panels ***** */
