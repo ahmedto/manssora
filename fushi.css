@@ -1,15 +1,37 @@
 ﻿a:link, body_alink
 {
 	color: #9a4499;
+	text-decoration: none;
 }
 a:visited, body_avisited
 {
 	color: #9a4499;
+	text-decoration: none;
 }
 a:hover, a:active, body_ahover
 {
 	color: #1E1E1E;
+	text-decoration: none;
 }
+
+div#fa_toolbar {
+    background: url(https://i21.servimg.com/u/f21/17/65/52/08/navtbg11.gif) repeat-x;
+    clear: both;
+}
+div#fa_toolbar a:link, div#fa_toolbar_alink
+{
+	text-decoration: none;
+}
+div#fa_toolbar a:visited, div#fa_toolbar_avisited
+{
+	text-decoration: none;
+}
+div#fa_toolbar a:hover, div#fa_toolbar a:active, div#fa_toolbar_ahover
+{
+	text-decoration: none;
+}
+
+
 .tfoot
 {
 	color: #9a4499;
