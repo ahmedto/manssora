@@ -52,6 +52,44 @@ div#fa_toolbar a:hover, div#fa_toolbar a:active, div#fa_toolbar_ahover
 	text-decoration: none;
 }
 
+#fa_left:after {
+	content: "منتديات منصورة والجميع";
+	background-repeat: no-repeat;
+	background-size: 30px auto;
+	color: #fff!important;
+	display: inline-block!important;
+	font-family: "Trebuchet MS",Arial,Verdana,Sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	height: 30px;
+	margin-left: 40px;
+	text-align: right;
+	visibility: visible!important;
+	text-shadow: #020202 1px 1px 1px;
+}
+#fa_left {
+	background-image: url(https://illiweb.com/fa/favicon/book.ico);
+	background-repeat: no-repeat;
+	background-size: 30px;
+	display: inline-block!important;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: -1px;
+	width: 30px;
+	visibility: visible!important;
+}
+#fa_toolbar #fa_icon {
+	display: none !important;
+}
+#fa_toolbar #fa_service {
+	display: none!important;
+	text-decoration: none!important;
+	visibility: none!important;
+	background-image: none!important;
+}
+/*-----كود 
+
+
 .tcat
 {
 	background: #9c9c9c url(https://i21.servimg.com/u/f21/17/65/52/08/frname10.gif) repeat-x top left;
