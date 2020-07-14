@@ -1,11 +1,32 @@
 ﻿a:link, body_alink
 {
 	color: #cc7701;
+	text-decoration: none;
+	
 }
 a:visited, body_avisited
 {
 	color: #cc7701;
+		text-decoration: none;
+
 }
+div#fa_toolbar {
+    background: url(https://i25.servimg.com/u/f25/20/21/38/73/navtbg11.gif) repeat-x;
+    clear: both;
+}
+div#fa_toolbar a:link, div#fa_toolbar_alink
+{
+	text-decoration: none;
+}
+div#fa_toolbar a:visited, div#fa_toolbar_avisited
+{
+	text-decoration: none;
+}
+div#fa_toolbar a:hover, div#fa_toolbar a:active, div#fa_toolbar_ahover
+{
+	text-decoration: none;
+}
+
 .tfoot
 {
 	color: #cc7701;
