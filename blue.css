@@ -33,6 +33,25 @@ td, th, p, li
 	border-right:1px solid #c6c6c6;
 	border-left:1px solid #c6c6c6;
 }
+
+
+div#fa_toolbar {
+    background: url(https://i21.servimg.com/u/f21/17/65/52/08/navtbg10.gif) repeat-x;
+    clear: both;
+}
+div#fa_toolbar a:link, div#fa_toolbar_alink
+{
+	text-decoration: none;
+}
+div#fa_toolbar a:visited, div#fa_toolbar_avisited
+{
+	text-decoration: none;
+}
+div#fa_toolbar a:hover, div#fa_toolbar a:active, div#fa_toolbar_ahover
+{
+	text-decoration: none;
+}
+
 .tcat
 {
 	background: #9c9c9c url(https://i21.servimg.com/u/f21/17/65/52/08/frname10.gif) repeat-x top left;
