@@ -56,7 +56,7 @@ td, th, p, li
 .tcat a:hover, .tcat a:active, .tcat_ahover
 {
 	color: #202020;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .thead
 {
@@ -78,7 +78,7 @@ td, th, p, li
 .thead a:hover, .thead a:active, .thead_ahover
 {
 	color: #ffffff;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .tfoot
 {
@@ -98,7 +98,7 @@ td, th, p, li
 .tfoot a:hover, .tfoot a:active, .tfoot_ahover
 {
 	color: #1e1e1e;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .alt1, .alt1Active
 {
@@ -120,7 +120,7 @@ td, th, p, li
 .alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover
 {
 	color: #1e1e1e;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .alt2, .alt2Active
 {
@@ -143,7 +143,7 @@ td, th, p, li
 .alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover
 {
 	color: #1e1e1e;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .inlinemod
 {
