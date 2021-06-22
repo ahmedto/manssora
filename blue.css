@@ -26,10 +26,7 @@ td, th, p, li
 {
 	font: bold 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
 }
-.forumline  iframe[src^="https://www.geniusdexchange.com"] {
-	display: none;
-	}
-#taboola-below-desktop-forum-thumbnails{display:NONE;} 
+
 .tborder
 {
 	color: #000000;
